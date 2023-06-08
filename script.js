@@ -4,10 +4,6 @@ function test(attr1, attr2) {
 
   // create a new function that calculate the value
   function calc(attr1, attr2) {
-    if (attr1 === attr2) {
-      return v;
-    }
-
     return v + c;
   }
 
