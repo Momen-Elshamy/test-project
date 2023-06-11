@@ -83,10 +83,10 @@ footer {
     position: fixed;
 
     clear: both;
-    position: relative;
+
     height: 200px;
     margin-top: -200px; 
-     position:absolute;
+    
    bottom:0;
    width:100%; 
     

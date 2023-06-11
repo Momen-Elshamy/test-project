@@ -5,30 +5,36 @@ var data = [];
 getdata();
 function getdata() {
   fetch(
-    `https://premast.com/wp-json/pmst/v1/product?slug=medirest-first-aid-powerpoint-presentation-template`
+    `https://premast.com/wp-json/pmst/v1/products?orderby=date&order=DESC&category_slug=presentation&status=any`
   )
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-      rowData.innerHTML = data.gallery;
+      rowData.innerHTML = data.data;
       displaydata();
     })
     .catch((err) => console.log(err));
 }
 
 function displaydata() {
-  var cols = "";
+  var cols = ``;
   for (i = 0; i < data.length; i++) {
-    cols += ` 
+    cols += `
     <div class = "col-md-3">
-    <div class = "post" >
-    <img class="w-100" src="${arr[i].medium}" alt="" />
+    <div class = "container" >
+    <img class="w-100" src="${data[i].image}" alt="" />
     </div>
     </div>
 
+ 
+
     `;
   }
-  document.getElementById("post").innerHTML = cols;
+
+  // console.log("cols : " + JSON.stringify({ cols }));
+  console.log("cols : ", { cols });
+
+  document.getElementById("rowData").innerHTML = cols;
 }
 
 getdatacontainer();
