@@ -1,450 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <img src="images/1-copy-5.svg" />
-
-          <li><a href="#">presentation</a></li>
-          <li><a href="#">Slides</a></li>
-          <li><a href="#">social Media</a></li>
-          <li><a href="#">graphics</a></li>
-        </ul>
-      </nav>
-
-      <nav>
-
-        <ul>
-
-            <div class="container-fluid">
-                <form class="d-flex input-group w-auto">
-                  <input
-                    type="search"
-                    class="form-control rounded"
-                    placeholder="Search"
-                    aria-label="Search"
-                    aria-describedby="search-addon"
-                  />
-                  <span class="input-group-text text-white border-0" id="search-addon">
-                    <i class="fas fa-search"></i>
-                  </span>
-                </form>
-              </div>      
-
-            <li>
-          <button 
-            style="
-              width: 80px;
-              height: 30px;
-              border-radius: 80px;
-              background-color: #1E6DFB;">
-          <a href="#">pricing</a></li>
-          </button> 
-          
-         
-
-          <li><a href="#">signin</a></li>
-          <li><a href="#">signup</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- header text container  -->
-    <div class="contt">
-        <p id="cont"></p>
-        <h4 >A wide range of options to choose from Premium and free PowerPoint presentation templates, just choose from our pre-designed presentations ideas that fit many business needs</h4>
-    
-    </div>
-
-
-
-    <!-- <div class="sidebar">
-
-        <div class="filter">
-
-            <h4>Filter </h4>
-            
-        </div>
-        <br>
-        <div class="software">
-             <h3>Sort by </h3>
-                 <ul>
-              <li class="list">
-                <label>
-                  <input type="radio" value='1' name='sort' />
-                  New
-                </label>
-              </li>
-                  </ul>
-    
-                  <ul>
-              <li class="list">
-                <label>
-                  <input type="radio" value='2' name='sort' />
-                  Popular
-                </label>
-              </li>
-                  </ul>
-    
-    
-            </div>
-    
-            <div class="software">
-             <h3>Category </h3>
-                 <ul>
-              <li class="list2">
-                <label>
-                  <input type="radio" value='1' name='category' />
-                Themes
-                </label>
-              </li>
-                  </ul>
-    
-                  <ul>
-              <li class="list2">
-                <label>
-                  <input type="radio" value='2' name='category' />
-                  Icon
-                </label>
-              </li>
-                  </ul>
-    
-                  <ul>
-              <li class="list2">
-                <label>
-                  <input type="radio" value='2' name='category' />
-                  Objects
-                </label>
-              </li>
-                  </ul>
-    
-    
-            </div>
-    
-            <div class="software">
-             <h3>SoftWare </h3>
-                 <ul>
-              <li class="list3">
-                <label>
-                  <input type="radio" value='1' name='category' />
-                Power-Point
-                </label>
-              </li>
-                  </ul>
-    
-                  <ul>
-              <li class="list3">
-                <label>
-                  <input type="radio" value='2' name='category' />
-                  google Slides
-                </label>
-              </li>
-                  </ul>
-    
-                
-    
-    
-            </div>
-    
-    
-    </div>   -->
-
-
-
-
-
-
-
-
-
-
-    <!-- <div id="wrapper">
-
-
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-
-                        <div class="software">
-                            <h3>Sort by </h3>
-                                <ul>
-                             <li class="list">
-                               <label>
-                                 <input type="radio" value='1' name='sort' />
-                                 New
-                               </label>
-                             </li>
-                                 </ul>
-                   
-                                 <ul>
-                             <li class="list">
-                               <label>
-                                 <input type="radio" value='2' name='sort' />
-                                 Popular
-                               </label>
-                             </li>
-                                 </ul>
-                   
-                   
-                           </div>
-                    
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="software">
-                            <h3>Category </h3>
-                                <ul>
-                             <li class="list2">
-                               <label>
-                                 <input type="radio" value='1' name='category' />
-                               Themes
-                               </label>
-                             </li>
-                                 </ul>
-                   
-                                 <ul>
-                             <li class="list2">
-                               <label>
-                                 <input type="radio" value='2' name='category' />
-                                 Icon
-                               </label>
-                             </li>
-                                 </ul>
-                   
-                                 <ul>
-                             <li class="list2">
-                               <label>
-                                 <input type="radio" value='2' name='category' />
-                                 Objects
-                               </label>
-                             </li>
-                                 </ul>
-                   
-                   
-                           </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="software">
-                            <h3>SoftWare </h3>
-                                <ul>
-                             <li class="list3">
-                               <label>
-                                 <input type="radio" value='1' name='category' />
-                               Power-Point
-                               </label>
-                             </li>
-                                 </ul>
-                   
-                                 <ul>
-                             <li class="list3">
-                               <label>
-                                 <input type="radio" value='2' name='category' />
-                                 google Slides
-                               </label>
-                             </li>
-                                 </ul>
-
-
-                    </a>
-                </li>
-            
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/all.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <img src="images/1-copy-5.svg" />
+               <li><a href="#">presentation</a></li>
+               <li><a href="#">Slides</a></li>
+               <li><a href="#">social Media</a></li>
+               <li><a href="#">graphics</a></li>
             </ul>
-        </div> -->
-<!--    
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                       
-                  
-                       
-                        </div>
-                                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><img src="images/icons8-filter-50.png" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-      
+         </nav>
 
-    </div> -->
-                     
+         <nav>
+            <ul>
+               <li>
+                  <div class="container-fluid">
+                     <form class="d-flex input-group w-auto">
+                        <input
+                           type="search"
+                           class="form-control rounded"
+                           placeholder="Search"
+                           aria-label="Search"
+                           aria-describedby="search-addon"
+                        />
+                        <span class="input-group-text text-white border-0" id="search-addon">
+                           <i class="fas fa-search"></i>
+                        </span>
+                     </form>
+                  </div>
+               </li>
 
+               <li>
+                  <button style="width: 80px; height: 30px; border-radius: 80px; background-color: #1e6dfb">
+                     <a href="#">pricing</a>
+                  </button>
+               </li>
 
+               <li><a href="#">signin</a></li>
+               <li><a href="#">signup</a></li>
+            </ul>
+         </nav>
+      </header>
 
-    <!-- main page image load -->
-
-    <div class="container-fluid text-center">
-        <div class="row py-1 g-4 " id="rowData">
-            <div class="col col-md-8 " >
-         
-            
-        </div>
-    </div>
-
-<!-- pagination  -->
-
-
-<div class="center">
-  <div class="pagination">
-  <a href="#">&laquo;</a>
-  <a href="#">1</a>
-  <a href="#" class="active">2</a>
-  <a href="#">3</a>
-  <a href="#">4</a>
-  <a href="#">5</a>
-  <a href="#">6</a>
-  <a href="#">&raquo;</a>
-  </div>
-</div>
-    
-
-
-        
-    
-   
- 
-
-
- 
-        
-        
-          <!-- Footer  -->
-
-         
- <div class="container my-2 width 100%" >
-
-
-    <footer
-            class="text-center text-lg-start text-white"
-            style="background-color: #1c2331"
-            >
-      
-   
-
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-     
-          <div class="row mt-3">
-          
-  
-       
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-         
-              <h6 class="text-uppercase fw-bold">Company </h6>
-              <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style="width: 60px; background-color: #7c4dff; height: 2px"
-                  />
-              <p>
-                <a href="#!" class="text-white">about</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Privacy</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Terms</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Contact us</a>
-              </p>
-            </div>
-           
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              
-
-                <h6 class="text-uppercase fw-bold">Discover  </h6>
-                <hr
-                    class="mb-4 mt-0 d-inline-block mx-auto"
-                    style="width: 60px; background-color: #7c4dff; height: 2px"
-                    />
-                <p>
-                  <a href="#!" class="text-white">about</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-white">Privacy</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-white">Terms</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-white">Contact us</a>
-                </p>
-              </div>
-           
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-             
-                <h6 class="text-uppercase fw-bold">Premast templates</h6>
-                <hr
-                    class="mb-4 mt-0 d-inline-block mx-auto"
-                    style="width: 60px; background-color: #7c4dff; height: 2px"
-                    />
-                <p>
-                  <a href="#!" class="text-white">about</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-white">Privacy</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-white">Terms</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-white">Contact us</a>
-                </p>
-              </div>
-       
-        </div>
-      </section> 
-      
-  
-    
-      <div
-           class="text-center p-3"
-           style="background-color: rgba(0, 0, 0, 0.2)"
-           >
-        © 2020 Copyright:
-        <a class="text-white" href="https://premast.com/"
-           >premast.com</a
-          >
+      <!-- header text container  -->
+      <div class="contt">
+         <p id="cont"></p>
+         <h4>
+            A wide range of options to choose from Premium and free PowerPoint presentation templates, just choose from
+            our pre-designed presentations ideas that fit many business needs
+         </h4>
       </div>
-  
-    </footer>
 
-  
-  </div>
+      <!-- main page image load -->
 
-                       
-       
-        
-           
-        
+      <div class="container-fluid text-center">
+         <div class="row py-1 g-4" id="templatesContainer">
+            <div class="col col-md-8"></div>
+         </div>
+      </div>
 
+      <!-- pagination  -->
 
+      <div class="center">
+         <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+         </div>
+      </div>
 
+      <!-- Footer  -->
 
-  
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
-  <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+      <div class="container my-2 width 100%">
+         <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+            <section class="">
+               <div class="container text-center text-md-start mt-5">
+                  <div class="row mt-3">
+                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Company</h6>
+                        <hr
+                           class="mb-4 mt-0 d-inline-block mx-auto"
+                           style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                        <p>
+                           <a href="#!" class="text-white">about</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Privacy</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Terms</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Contact us</a>
+                        </p>
+                     </div>
 
+                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Discover</h6>
+                        <hr
+                           class="mb-4 mt-0 d-inline-block mx-auto"
+                           style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                        <p>
+                           <a href="#!" class="text-white">about</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Privacy</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Terms</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Contact us</a>
+                        </p>
+                     </div>
+
+                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Premast templates</h6>
+                        <hr
+                           class="mb-4 mt-0 d-inline-block mx-auto"
+                           style="width: 60px; background-color: #7c4dff; height: 2px"
+                        />
+                        <p>
+                           <a href="#!" class="text-white">about</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Privacy</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Terms</a>
+                        </p>
+                        <p>
+                           <a href="#!" class="text-white">Contact us</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+               © 2020 Copyright:
+               <a class="text-white" href="https://premast.com/">premast.com</a>
+            </div>
+         </footer>
+      </div>
+
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+      <script>
+         $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+         });
+      </script>
+   </body>
 </html>

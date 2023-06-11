@@ -1,0 +1,12 @@
+2023-06-11 14:33:29 info: tempDirectory:/Users/momenelshamy/.vscode/extensions/embold-vscode.embold-0.1.5/temp
+2023-06-11 14:33:29 info: Extraction complete for source: /Users/momenelshamy/.vscode/extensions/embold-vscode.embold-0.1.5/resources/embold-scanner-archive.zip, destination: /Users/momenelshamy/.vscode/extensions/embold-vscode.embold-0.1.5/temp
+2023-06-11 14:33:29 info: Congratulations, your extension "Embold" is now active!
+2023-06-11 15:46:07 info: tempDirectory:/Users/momenelshamy/.vscode/extensions/embold-vscode.embold-0.1.5/temp
+2023-06-11 15:46:07 info: Extraction complete for source: /Users/momenelshamy/.vscode/extensions/embold-vscode.embold-0.1.5/resources/embold-scanner-archive.zip, destination: /Users/momenelshamy/.vscode/extensions/embold-vscode.embold-0.1.5/temp
+2023-06-11 15:46:07 info: Congratulations, your extension "Embold" is now active!
+2023-06-11 15:57:17 info: file:///Users/momenelshamy/Downloads/test-project/.git/index.lock
+2023-06-11 15:57:17 error: SQLITE_ERROR: no such table: issues
+2023-06-11 15:57:35 info: file:///Users/momenelshamy/Downloads/test-project/.git/HEAD.lock
+2023-06-11 15:57:35 info: file:///Users/momenelshamy/Downloads/test-project/.git/refs/heads/master.lock
+2023-06-11 15:57:35 error: SQLITE_ERROR: no such table: issues
+2023-06-11 15:57:35 error: SQLITE_ERROR: no such table: issues
